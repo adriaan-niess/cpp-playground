@@ -23,5 +23,5 @@ ax1.set_title('Queuing latencies')
 ax1.boxplot(data, labels=configs)
 ax1.set_ylabel('Latency [us]')
 
-plt.savefig('results/queuing-latencies.png')
+plt.savefig('results/queuing_latencies.png')
 #plt.show()
